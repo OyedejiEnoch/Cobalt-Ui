@@ -69,7 +69,7 @@ const SkeletonTwo = () => {
   //     },
   //   },
   // };
-  const arr = new Array(6).fill(0);
+  // const arr = new Array(6).fill(0);
   return (
     <motion.div
       initial="initial"

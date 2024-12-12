@@ -1,4 +1,6 @@
+
 "use client";
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion, MotionValue } from "framer-motion";
 
@@ -52,6 +54,7 @@ export const ContainerScroll = ({
     </div>
   );
 };
+
 
 export const Header = ({ translate, titleComponent }: any) => {
   return (
