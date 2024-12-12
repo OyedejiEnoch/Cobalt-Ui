@@ -33,7 +33,7 @@ const Team = () => {
 
                     <div className='flex flex-col gap-2 mt-6'>
                         <h2 className='text-white text-xl font-semibold'>Smart forecasting</h2>
-                        <p className='text-sm max-w-[400px]'>Harness the power of Cobalt's predictive analytics to map out the financial future of your business. </p>
+                        <p className='text-sm max-w-[400px]'>Harness the power of Cobalt&apos;s predictive analytics to map out the financial future of your business. </p>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ const Team = () => {
                         </div>
 
                         <div className='flex items-center justify-between p-2 border border-white/20 bg-[#18181B] rounded-xl'>
-                            <p className='text-xs lg:text-sm'>✨ Who's our most profitable customer?</p>
+                            <p className='text-xs lg:text-sm'>✨ Who&apos;s our most profitable customer?</p>
 
                             <div className=''>
                                 <button className='text-xs lg:text-sm text-white bg-black p-2 rounded-lg z-20'>Ask Genius</button>

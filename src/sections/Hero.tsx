@@ -1,10 +1,10 @@
 'use client'
 import Button from '@/components/Button'
-import React, {useRef} from 'react'
+import React from 'react'
 import arrowDown from '@/assets/arrow-down.svg'
 import Image from 'next/image'
 import HomeScreenScroll from '@/components/HomeScreenScroll'
-import { motion, useInView } from 'framer-motion' 
+import { motion } from 'framer-motion' 
 
 const Hero = () => {
 

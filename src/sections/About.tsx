@@ -6,36 +6,22 @@ const About = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })
 
-  const variantsOne ={
-    initial:{
-      opacity:0,
-      y:10
-    },
-    animate:{
-      y:0,
-      opacity:1
-    },
-    transition:{
-      duration:0.5,
-      ease:'easeIn'
-    }
-  }
 
-  const variantsTwo ={
-    initial:{
-      opacity:0,
-      y:10
-    },
-    animate:{
-      y:0,
-      opacity:1
-    },
-    transition:{
-      duration:0.5,
-      ease:'easeIn',
-      delay:1
-    }
-  }
+  // const variantsTwo ={
+  //   initial:{
+  //     opacity:0,
+  //     y:10
+  //   },
+  //   animate:{
+  //     y:0,
+  //     opacity:1
+  //   },
+  //   transition:{
+  //     duration:0.5,
+  //     ease:'easeIn',
+  //     delay:1
+  //   }
+  // }
 
   return (
     <section ref={ref} className='py-2 pb-20'>

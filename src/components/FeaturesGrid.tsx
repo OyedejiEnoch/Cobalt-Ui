@@ -2,13 +2,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
-import {
-  IconBoxAlignRightFilled,
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import featureImg1 from '@/assets/featureImg1.svg'
 import featureImg2 from '@/assets/featureImg2.svg'
@@ -34,30 +27,19 @@ export default function FeaturesGrid() {
 }
 
 const SkeletonOne = () => {
-  const variants = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: 10,
-      rotate: 5,
-      transition: {
-        duration: 0.2,
-      },
-    },
-  };
-  const variantsSecond = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: -10,
-      rotate: -5,
-      transition: {
-        duration: 0.2,
-      },
-    },
-  };
+  // const variants = {
+  //   initial: {
+  //     x: 0,
+  //   },
+  //   animate: {
+  //     x: 10,
+  //     rotate: 5,
+  //     transition: {
+  //       duration: 0.2,
+  //     },
+  //   },
+  // };
+
 
   return (
     <motion.div
@@ -70,23 +52,23 @@ const SkeletonOne = () => {
   );
 };
 const SkeletonTwo = () => {
-  const variants = {
-    initial: {
-      width: 0,
-    },
-    animate: {
-      width: "100%",
-      transition: {
-        duration: 0.2,
-      },
-    },
-    hover: {
-      width: ["0%", "100%"],
-      transition: {
-        duration: 2,
-      },
-    },
-  };
+  // const variants = {
+  //   initial: {
+  //     width: 0,
+  //   },
+  //   animate: {
+  //     width: "100%",
+  //     transition: {
+  //       duration: 0.2,
+  //     },
+  //   },
+  //   hover: {
+  //     width: ["0%", "100%"],
+  //     transition: {
+  //       duration: 2,
+  //     },
+  //   },
+  // };
   const arr = new Array(6).fill(0);
   return (
     <motion.div
@@ -100,8 +82,6 @@ const SkeletonTwo = () => {
   );
 };
 const SkeletonThree = () => {
-  const variants = {
-  };
   return (
     <motion.div
       initial="initial"
@@ -113,26 +93,6 @@ const SkeletonThree = () => {
   );
 };
 const SkeletonFour = () => {
-  const first = {
-    initial: {
-      x: 20,
-      rotate: -5,
-    },
-    hover: {
-      x: 0,
-      rotate: 0,
-    },
-  };
-  const second = {
-    initial: {
-      x: -20,
-      rotate: 5,
-    },
-    hover: {
-      x: 0,
-      rotate: 0,
-    },
-  };
   return (
     <motion.div
       initial="initial"
@@ -145,30 +105,6 @@ const SkeletonFour = () => {
   );
 };
 const SkeletonFive = () => {
-  const variants = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: 10,
-      rotate: 5,
-      transition: {
-        duration: 0.2,
-      },
-    },
-  };
-  const variantsSecond = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: -10,
-      rotate: -5,
-      transition: {
-        duration: 0.2,
-      },
-    },
-  };
 
   return (
     <motion.div
